@@ -1,0 +1,39 @@
+body{background-color: black;}
+
+div{width: 600px; }
+
+#artico{
+    position: relative;
+    background-color: #20b2aa;
+    color: bisque;
+    top: 170px;
+    left: 200px;
+    width: 400px;
+    z-index: 1;
+}
+
+div:nth-child(2){
+    background: #d70202;
+    width: 600px;
+}
+li:nth-child(2){
+    background: #90ee90;
+}
+:nth-child(3){
+background: #ff0;
+}
+:nth-child(4){
+    background: #ff9500;
+}
+:nth-child(5){
+background: #00fff2;
+}
+img{
+    width: 160px;
+}
+li:nth-child(odd) {
+    background: green; 
+  }
+
+
+  
